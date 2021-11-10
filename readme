@@ -1,0 +1,22 @@
+cuda = 10.2
+
+conda create -n pytorch python=3.7
+conda activate pytorch
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+python -m pip install detectron2 -f   https://dl.fbaipublicfiles.com/detectron2/wheels/cu102/torch1.7/index.html
+pip install opencv-python
+pip install tkinter
+
+git clone https://github.com/rafaelpadilla/Object-Detection-Metrics.git
+
+
+
+
+########################################
+some useful resource for building GUI
+Tkinter
+https://stackoverflow.com/questions/52146562/python-tkinter-paint-how-to-paint-smoothly-and-save-images-with-a-different
+
+https://stackoverflow.com/questions/41656176/tkinter-canvas-zoom-move-pan
+
+https://stackoverflow.com/questions/27513183/are-the-key-codes-of-a-key-event-platform-independent
