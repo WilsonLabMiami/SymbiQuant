@@ -1,10 +1,12 @@
 # SymbiQuant (Previously Buchnearer)
 Machine learning tool for polyploid independent population estimates for endosymbionts. The included dataset works to phenotype Buchnera and aphid bacteriocytes in DAPI stained confocal microscope images.
-Please read ##Ref for information
+Please see https://www.frontiersin.org/articles/10.3389/fmicb.2022.816608/abstract for information.
+
+
 
 
 To use Buchnera dataset, use this colab: https://colab.research.google.com/drive/1YZlQgm9Hf4qAFVPvb6JbNHlYyvS2cNN4#scrollTo=AcLEB5XJpH0b, 'GUI.py', and 'buchnera_metrics.py'.
-
+Buchnera dataset can be installed within that colab notebook, or from figshare here: https://figshare.com/articles/online_resource/model_final_randomscale_0_5_1_40000_pth/19583713
 
 To train for other endosymbiotic systems:
 
